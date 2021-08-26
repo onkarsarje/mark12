@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Is Triagle?</title>
+    <title>Area of Triangle?</title>
 </head>
 <body>
     <nav>
@@ -13,15 +13,14 @@
         <a href="./hypotenuse.html">Calculate Hypotenuse</a>
         <a href="./Area.html">Calculate Area</a>
     </nav>
-    <h1>Is Triangle?</h1>
-    <label for="angle1">angle1</label>
-    <input type="number" class="angle-input"/>
-    <label for="angle2">angle2</label>
-    <input type="number"class="angle-input"/>
-    <label for="angle3">angle3</label>
-    <input type="number"class="angle-input"/>
-    <button id="is-triangle-button">Is Triangle?</button>
+    <h1>Check Area of Triangle</h1>
+    <div id="formula">Area of a Triangle = 1/2(Base*Height)</div>
+    <label for="base">Base(in cm)</label>
+    <input type="number" name= "base" class="side-input" />
+    <label for="height">Height(in cm)</label>
+    <input type="number" name= "height" class="side-input" />
+    <button id="check-area-btn">Check Area</button>
     <div id="output"></div>
-    <script src="istriangle.js"></script>
+    <script src="./area.js"></script>
 </body>
 </html>
