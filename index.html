@@ -8,21 +8,33 @@
     <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
-    <nav>
-        <a href="./index.html">Is Triangle?</a>
-        <a href="./quiz.html">Triangle Quiz</a>
-        <a href="./hypotenuse.html">Calculate Hypotenuse</a>
-        <a href="./Area.html">Calculate Area</a>
+    <nav class="navigation">
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline">
+                <a class="link link-active" href="./index.html">Is Triangle?</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link"href="./quiz.html">Triangle Quiz</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="./hypotenuse.html">Calculate Hypotenuse</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="./Area.html">Calculate Area</a>
+            </li>
+        </ul>
     </nav>
     <h1>Is Triangle?</h1>
-    <label for="angle1">angle1</label>
-    <input type="number" class="angle-input"/>
-    <label for="angle2">angle2</label>
-    <input type="number"class="angle-input"/>
-    <label for="angle3">angle3</label>
-    <input type="number"class="angle-input"/>
-    <button id="is-triangle-button">Is Triangle?</button>
-    <div id="output"></div>
+    <div class="container">
+        <label for="angle1">angle1</label>
+        <input type="number" class="angle-input"/>
+        <label for="angle2">angle2</label>
+        <input type="number"class="angle-input"/>
+        <label for="angle3">angle3</label>
+        <input type="number"class="angle-input"/>
+        <button id="is-triangle-button">Is Triangle?</button>
+        <div id="output"></div>
+    </div>
     <script src="istriangle.js"></script>
 </body>
 </html>
