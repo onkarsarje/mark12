@@ -36,14 +36,16 @@ h1 {
   margin: auto;
 }
 
-input, label {
-  display: block;
-}
+/* input, label {
+  display: block; 
+} */
 
-input{
+#inputValue {
   margin-bottom: 0.5rem;
   width: 100%;
 }
+
+#
 
 #is-triangle-button{
  display: block;
@@ -90,9 +92,9 @@ input{
 /* navigation */
 
 .navigation {
-    background-color: var(--primary-color);
+    background-color: var(--primary-green);
     color: white;
-   
+   padding: 0.5rem;
 }
 
 .navigation .nav-pills {
@@ -120,5 +122,9 @@ input{
 }
 
 .quiz-form{
-  text-align: centre;
+  text-align: left;
+}
+
+/* .question-container{
+  text-align: center; */
 }
